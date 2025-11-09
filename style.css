@@ -1,0 +1,134 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #18181b !important;
+}
+.navbar {
+   background-color: #17171a !important;
+}
+.navbar .container .navbar-toggler {
+   box-shadow: none;
+   outline: none;
+}
+.navbar .navbar-nav .nav-item {
+   padding: 0 8px;
+}
+.navbar .navbar-nav .nav-item:hover {
+   background-color: #222;
+   border-radius: 3px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+   color: #faf9f9;
+   font-size: 1rem;
+   font-weight: 700;
+   letter-spacing: 1;
+   text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+   background-color: #111;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+   color: #fff;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+   background-color: #222;
+}
+.navbar .container .search-box {
+   background-color: #27272a;
+   box-shadow: none;
+   border: none;
+   outline: none;
+
+   color: #fff;
+}
+.navbar .container .search-box::placeholder {
+   color: #ddd;
+   font-size: 1rem;
+}
+.navbar .container .search-btn {
+   width: 70px;
+   background-color: rgb(5, 83, 5);
+   border: none;
+   color: #fff;
+   font-weight: 600;
+}
+.navbar .container .search-btn:active {
+   background-color: rgb(2, 125, 2);
+}
+.navbar .container .menu-bar {
+   color: #fff;
+   font-size: 33px;
+}
+.card-container .card-body {
+   background: #27272a;
+   color: #fff;
+}
+.card-container .card {
+   transition: 1s;
+}
+.card-container .card img:hover {
+   cursor: pointer;
+   /* transform: scale(1.2);
+   z-index: 2; */
+}
+.card-container .col .card a {
+   background-color: #27272a; /* image side white border show so hide this border */
+}
+.next-page ul li {
+   display: inline-block;
+   list-style: none;
+   padding: 0 8px;
+}
+.next-page ul li a {
+   text-decoration: none;
+   color: #888;
+   font-size: 1rem;
+   font-weight: 700;
+}
+.next-page ul li a:hover {
+   color: #fff;
+}
+.next-page .bi-arrow-up-circle {
+   color: #ddd;
+   font-size: 1.5rem;
+}
+.next-page .bi-arrow-up-circle:active {
+   color: #0a66c2;
+}
+.footer {
+   /* min-height: 400px; */
+   background: #27272a;
+}
+.footer p {
+   color: #fff;
+   font-size: 1rem;
+   font-weight: 600;
+}
+.footer ul li {
+   list-style: none;
+   line-height: 1.75;
+}
+.footer ul li a {
+   text-decoration: none;
+   color: #bdc3c7;
+   font-size: 1rem;
+}
+.footer ul li a:hover {
+   text-decoration: underline;
+}
+.footer .footer-buttom {
+   background-color: #232325;
+}
+.footer .footer-buttom .footer-copy {
+   color: #bdc3c7;
+   font-size: 1rem;
+   font-weight: normal;
+}
+.footer .footer-buttom .footer-icon .bi {
+   color: #ffff;
+   font-size: 1rem;
+   padding: 0 2px;
+}
